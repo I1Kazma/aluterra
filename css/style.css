@@ -202,7 +202,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
   height: 100%;
 }
 
@@ -226,6 +226,17 @@ body {
   font-weight: 600;
   margin-bottom: 1rem;
   color: #375a83;
+
+  word-break: keep-all;
+  overflow-wrap: normal;
+  hyphens: none;
+  white-space: normal;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .card-title {
+    font-size: 1rem;
+  }
 }
 
 .card-text {
