@@ -128,6 +128,8 @@ body {
   max-width: fit-content;
   height: auto;
   font-size: 1.125rem;
+  max-height: 75px;
+  text-align: center;
 }
 
 @keyframes pulse {
@@ -299,7 +301,7 @@ body {
 
 .section-text {
   font-size: 1.1rem;
-  text-align: center;
+  text-align: justify;
   max-width: 800px;
   margin: 0 auto 3rem;
   color: #555;
@@ -314,7 +316,7 @@ body {
 .product-card {
   background-color: transparent;
   border: none;
-  text-align: center;
+  text-align: justify;
   height: 100%;
   color: #fff;
   margin-bottom: 2rem;
@@ -530,7 +532,7 @@ body {
 
 .footer__info {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   gap: 10px;
 }
 
@@ -554,6 +556,10 @@ body {
 @media (max-width: 768px) {
   .footer {
     padding: 30px 0 20px;
+  }
+
+  .footer__info {
+    justify-content: flex-start;
   }
 
   .footer h5 {

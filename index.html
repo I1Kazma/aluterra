@@ -677,20 +677,23 @@
             </ul>
           </div>
           <div class="col-lg-4 col-md-6 footer__info">
-            <h5>КОНТАКТЫ:</h5>
-            <a href="tel:99-49-49" class="footer__link">99-49-49</a>
-            <a href="mailto:aluterra@yandex.ru" class="footer__link"
-              >aluterra@yandex.ru</a
-            >
-            <a href="#" class="cta-button">ЗАКАЗАТЬ РАСЧЕТ</a>
-            <div class="footer__social">
-              <div class="social-icons">
-                <a href="#">
-                  <img src="img/vk.png" alt="" />
-                </a>
-                <a href="#"> <img src="img/tg.png" alt="" /></a>
+            <div style="display: flex; flex-direction: column">
+              <h5>КОНТАКТЫ:</h5>
+              <a href="tel:99-49-49" class="footer__link">99-49-49</a>
+              <a href="mailto:aluterra@yandex.ru" class="footer__link"
+                >aluterra@yandex.ru</a
+              >
+              <div class="footer__social">
+                <div class="social-icons">
+                  <a href="#">
+                    <img src="img/vk.png" alt="" />
+                  </a>
+                  <a href="#"> <img src="img/tg.png" alt="" /></a>
+                </div>
               </div>
             </div>
+
+            <a href="#" class="cta-button">ЗАКАЗАТЬ РАСЧЕТ</a>
           </div>
         </div>
       </div>
@@ -733,81 +736,81 @@
     </script>
     <script>
       const swiper1 = new Swiper(".swiper-1", {
-        slidesPerView: 1,
+        slidesPerView: 3,
         spaceBetween: 20,
         loop: true,
         autoplay: 3000,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
         breakpoints: {
-          640: {
-            slidesPerView: 1,
+          300: {
+            slidesPerView: 2,
             spaceBetween: 10,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
         },
       });
       const swiper2 = new Swiper(".swiper-2", {
-        slidesPerView: 1,
+        slidesPerView: 3,
         spaceBetween: 20,
         loop: true,
         autoplay: 3000,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
         breakpoints: {
-          640: {
-            slidesPerView: 1,
+          300: {
+            slidesPerView: 2,
             spaceBetween: 10,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
         },
       });
       const swiper3 = new Swiper(".swiper-3", {
-        slidesPerView: 1,
+        slidesPerView: 3,
         spaceBetween: 20,
         loop: true,
         autoplay: 3000,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
         breakpoints: {
-          640: {
-            slidesPerView: 1,
+          300: {
+            slidesPerView: 2,
             spaceBetween: 10,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
         },
       });
       const swiper4 = new Swiper(".swiper-4", {
-        slidesPerView: 1,
+        slidesPerView: 3,
         spaceBetween: 20,
         loop: true,
         autoplay: 3000,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
         breakpoints: {
-          640: {
-            slidesPerView: 1,
+          300: {
+            slidesPerView: 2,
             spaceBetween: 10,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
         },
