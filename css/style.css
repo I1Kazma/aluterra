@@ -307,6 +307,10 @@ body {
   color: #555;
 }
 
+.footer__social {
+  margin-top: 15px;
+}
+
 .products-row {
   background-color: #375a83;
   padding: 40px 0;
