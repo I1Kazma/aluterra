@@ -184,7 +184,7 @@ body {
 
 .about-text {
   font-size: 1.1rem;
-  text-align: center;
+  text-align: left;
   max-width: 800px;
   margin: 0 auto 3rem;
   color: #555;
@@ -301,7 +301,7 @@ body {
 
 .section-text {
   font-size: 1.1rem;
-  text-align: justify;
+  text-align: left;
   max-width: 800px;
   margin: 0 auto 3rem;
   color: #555;
