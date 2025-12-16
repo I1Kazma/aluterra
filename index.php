@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>АлюТерра</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#"><img src="img/logo.png" alt="logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#windows">ОКНА</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#doors">ДВЕРИ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portals">ПОРТАЛЫ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#facade">ФАСАДНОЕ ОСТЕКЛЕНИЕ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#partition">ИНТЕРЬЕРНЫЕ ПЕРЕГОРОДКИ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <div class="hero-content">
+              <h1 class="hero-title">
+                КОМПЛЕКСНЫЕ РЕШЕНИЯ ДЛЯ СВЕТОПРОЗРАЧНЫХ КОНСТРУКЦИЙ
+              </h1>
+              <a href="#" data-open-feedback class="cta-button">ЗАЯВКА НА РАСЧЕТ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h2 class="about-title">О нас</h2>
+            <p class="about-text">
+              Мы создали бренд АлюТерра, чтобы объединить все алюминиевые
+              изделия. <br /><br />АлюТерра — бренд компании с 27-летним
+              опытом в оконной индустрии. Мы производим алюминиевые окна и
+              двери, которые меняют пространство к лучшему и служат долго. Под
+              единым брендом линейка становится понятнее: вам проще сравнивать
+              решения и выбирать подходящее. АлюТерра — это надежность и
+              качество, проверенные временем.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="leaders-title">Ценности бренда</h3>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card">
+              <span class="card-icon"><img src="img/reliability.png" alt="Надежность и долговечность" /></span>
+              <h5 class="card-title">НАДЕЖНОСТЬ И ДОЛГОВЕЧНОСТЬ</h5>
+              <p class="card-text">
+                Мы создаем конструкции, которые служат десятилетиями и
+                выдерживают любые испытания временем и климатом
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card">
+              <span class="card-icon"><img src="img/professional.png" alt="Профессионализм и опыт" /></span>
+              <h5 class="card-title">ПРОФЕССИОНАЛИЗМ И ОПЫТ</h5>
+              <p class="card-text">
+                За каждым пректом стоит 27 лет практики, знания специалстов и
+                уверенность в результате
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card">
+              <span class="card-icon"><img src="img/method.png" alt="Индивидуальный подход" /></span>
+              <h5 class="card-title">ИНДИВИДУАЛЬНЫЙ ПОДХОД</h5>
+              <p class="card-text">
+                Каждое решение мы создаем под задачи клиента, учитывая его
+                стиль, архитектуру и требования к функциональности
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card">
+              <span class="card-icon"><img src="img/responsibility.png" alt="Ответственность за качество" /></span>
+              <h5 class="card-title">ОТВЕТСТВЕННОСТЬ ЗА КАЧЕСТВО</h5>
+              <p class="card-text">
+                Каждая деталь проходит контроль, чтобы клиент получал не
+                просто конструкцию, а уверенность в ее надежности
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="windows-section" id="windows">
+      <div class="container">
+        <h2 class="section-title">ОКНА из алюминия</h2>
+        <p class="section-text">
+          Алюминиевые окна АлюТерра— это воплощение современных технологий
+          остекления, сочетающее в себе функциональность, эстетику и
+          практичность. Конструкции изготавливаются из высокопрочных
+          алюминиевых профилей, способных выдерживать значительные нагрузки
+          при минимальном весе.<br />
+          Главное достоинство таких окон заключается в их исключительной
+          долговечности — они сохраняют свои эксплуатационные характеристики
+          на протяжении десятилетий, не подвержены коррозии и деформации.
+          <br />
+          Универсальность применения алюминиевых окон поражает: они идеально
+          подходят как для жилых помещений, так и для коммерческих объектов,
+          промышленных зданий и архитектурных комплексов. Широкий выбор типов
+          открывания (поворотные, поворотно-откидные, раздвижные) позволяет
+          реализовать любые дизайнерские решения.<br />
+          Современные технологии позволяют создавать окна различных форм и
+          размеров — от классических прямоугольных до трапеций и эркерных
+          конструкций. Возможность использования различных видов остекления
+          делает их особенно востребованными в современном строительстве.<br />
+          Экономическая эффективность алюминиевых окон обусловлена низкими
+          затратами на обслуживание, длительным сроком службы и высокой
+          энергоэффективностью. При этом конструкции остаются абсолютно
+          экологичными и безопасными для здоровья.
+        </p>
+      </div>
+
+      <div class="products-row">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="product-card">
+                <h5 class="product-title">AluTerra Comfort +</h5>
+                <img src="img/window1.png" alt="AluTerra Comfort +" />
+                <div class="product-wireframe">
+                  Окна на основе системы W72 представляют собой
+                  термоизолированную серию профилей с монтажной глубиной 72
+                  мм, предназначенную для изготовления оконных конструкций
+                  различной конфигурации и степени сложности, соответствующих
+                  повышенным теплотехническим и звукоизоляционным требованиям.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="product-card">
+                <h5 class="product-title">AluTerra Classic</h5>
+                <img src="img/window2.png" alt="AluTerra Classic" />
+                <div class="product-wireframe">
+                  Окна на основе системы W62 позволяют повысить
+                  функциональность и безопасность зданий, обеспечивают высокий
+                  уровень комфорта в помещениях. Конструкции на основании W62
+                  надежны и долговечны, имеют высокие показатели тепло- и
+                  звукоизоляции, а также герметичности. Применяемые профили,
+                  комплектующие и фурнитура, используемые типы покрытий
+                  гарантируют долгий срок службы окон. Конструкции выглядят
+                  стильно, удачно гармонируют с фасадными и дверными
+                  системами.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="product-card">
+                <h5 class="product-title">AluTerra Light</h5>
+                <img src="img/window3.png" alt="AluTerra Light" />
+                <div class="product-wireframe">
+                  Окна на основе серии C48 без термоизоляции предназначена для
+                  реализации внутренних и наружных оконных, а также витражных
+                  и перегородочных конструкций, устанавливаемых в зданиях, к
+                  которым не предъявляются требования по повышенной
+                  теплозащите. Конструкции обладают высокими показателями по
+                  воздухо-, водопроницаемости и сопротивлению ветровой
+                  нагрузке.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-0">
+        <div class="windows-swiper swiper-1">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slider11.png" alt="Картинка 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider12.png" alt="Картинка 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider13.png" alt="Картинка 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="windows-section" id="doors">
+      <div class="container">
+        <h2 class="section-title">ДВЕРИ межофисные и входные</h2>
+        <p class="section-text">
+          Алюминиевые двери АлюТерра - это высокотехнологичные конструкции,
+          изготовленные из современных алюминиевых профилей, которые сочетают
+          в себе прочность, долговечность и эстетическую привлекательность.<br />
+          Благодаря уникальным свойствам материала, такие двери
+          обладают исключительной надёжностью — они не подвержены коррозии,
+          устойчивы к механическим повреждениям и сохраняют первоначальный
+          внешний вид на протяжении всего срока службы.<br />
+          Важным преимуществом является универсальность применения:
+          алюминиевые двери успешно используются как в жилых помещениях, так и
+          в коммерческой недвижимости, общественных зданиях и промышленных
+          объектах. Они доступны в различных вариантах исполнения, с разным
+          подбором фурнитуры.<br />
+          Современные технологии позволяют создавать конструкции с отличной
+          тепло- и звукоизоляцией, при этом сохраняя лёгкость и удобство
+          эксплуатации. Материал абсолютно экологичен, негорюч и безопасен для
+          здоровья.<br />
+          Дизайн алюминиевых дверей отличается разнообразием: возможность
+          использования различных видов остекления, цветовых решений по шкале
+          RAL и декоративных покрытий делает их идеальным выбором для
+          реализации любых архитектурных замыслов.<br />
+          Экономическая эффективность таких конструкций обусловлена низкими
+          затратами на обслуживание, длительным сроком эксплуатации и высокой
+          энергоэффективностью, что делает их выгодным вложением в комфорт и
+          безопасность любого помещения.
+        </p>
+      </div>
+
+      <div class="products-row">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="product-card">
+                <h5 class="product-title">AluTerra Comfort +</h5>
+                <img src="img/doors1.png" alt="AluTerra Comfort +" />
+                <div class="product-wireframe">
+                  Входные двери AluTerra Comfort на основе системы W72 — это
+                  инновационное решение в области производства дверных
+                  конструкций, базирующееся на передовых технологиях
+                  термоизоляции. Конструктивные особенности профиля с
+                  монтажной глубиной 72 мм обеспечивают исключительные
+                  показатели энергоэффективности и шумопоглощения, что делает
+                  его оптимальным выбором для современных строительных
+                  проектов. Универсальность применения данной системы
+                  позволяет создавать дверные конструкции любой сложности и
+                  конфигурации — от стандартных решений до сложных
+                  архитектурно-инженерных проектов. Ключевые преимущества
+                  дверей AluTerra Comfort заключаются в способности
+                  соответствовать самым строгим требованиям по:
+                  <ul>
+                    <li>теплозащите помещений;</li>
+                    <li>звукоизоляции внутренних пространств;</li>
+                    <li>долговечности эксплуатации;</li>
+                    <li>устойчивости к внешним воздействиям.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="product-card">
+                <h5 class="product-title">AluTerra Classic</h5>
+                <img src="img/doors2.png" alt="AluTerra Classic" />
+                <div class="product-wireframe">
+                  Двери AluTerra Classic на основе системы W62 — это передовое
+                  технологическое решение в сфере светопрозрачных конструкций,
+                  предназначенное для остекления зданий различного
+                  функционального назначения. Конструктивные характеристики
+                  профиля включают монтажную глубину 62 мм и встроенную
+                  термоизоляцию, что обеспечивает оптимальное сочетание
+                  прочности и энергоэффективности. AluTerra Classic это
+                  дверные конструкции любой сложности и различных конфигураций
+                  Функциональные особенности включают возможность организации
+                  как наружного, так и внутреннего открывания, что расширяет
+                  архитектурные и планировочные возможности при
+                  проектировании. Практическое применение дверей AluTerra
+                  Classic особенно эффективно в проектах, где требуется
+                  оптимальное сочетание стоимости и эксплуатационных
+                  характеристик, при этом сохраняя необходимый уровень
+                  комфорта и энергоэффективности.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="product-card">
+                <h5 class="product-title">AluTerra Light</h5>
+                <img src="img/doors3.png" alt="AluTerra Light" />
+                <div class="product-wireframe">
+                  Двери на основе серии С48 предназначены для архитектурной
+                  внутренней и внешней застройки зданий: дверей, входных
+                  групп, тамбуров, перегородок и др. Конструкции обладают
+                  высокими показателями по воздухо-, водопроницаемости и
+                  сопротивлению ветровой нагрузке. Накладные петли
+                  обеспечивают высокую несущую способность конструкции и
+                  являются базовым решением для всех типов дверных
+                  конструкций. Возможно наружнее и внутреннее открывание
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-0">
+        <div class="windows-swiper swiper-2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slider21.png" alt="Картинка 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider22.png" alt="Картинка 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider23.png" alt="Картинка 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="windows-section" id="portals">
+      <div class="container">
+        <h2 class="section-title">
+          ПОРТАЛЫ - раздвижные двери больших размеров и гармошки
+        </h2>
+        <p class="section-text">
+          Алюминиевые раздвижные системы  - это инновационное решение для
+          организации пространства, включающее крупноформатные раздвижные
+          конструкции АлюТерра Портале и популярные двери типа «гармошка»
+          АлюТерра Фолд . Эти современные конструкции способны преобразить
+          любое помещение, создавая эффектный архитектурный акцент.<br />
+          Масштабные раздвижные порталы АлюТерра Портале впечатляют своими
+          габаритами и функциональностью — они могут трансформироваться под
+          различные задачи, освобождая максимум пространства при открывании.
+          При этом в закрытом состоянии они обеспечивают отличную тепло- и
+          звукоизоляцию, не уступая традиционным оконным системам.<br />
+          Особенность дверей-гармошек АлюТерраФолд заключается в их
+          универсальности: можно открывать как все створки одновременно, так и
+          отдельные секции, что особенно удобно для контроля микроклимата
+          помещения. Конструкции комплектуются надёжными механизмами с плавным
+          ходом и могут оснащаться различными типами порогов.<br />
+          Преимущество систем заключается в их практичности: они устойчивы к
+          коррозии, просты в уходе, пожаробезопасны и экологичны. <br />
+          Широкая сфера применения включает как внутреннее зонирование
+          помещений, так и наружное использование — от частных домов и
+          ресторанов до торговых центров и зимних садов. При этом конструкции
+          гармонично вписываются в любой архитектурный стиль.<br />
+          Современные технологии позволяют создавать изделия в различных
+          цветовых решениях по шкале RAL, что даёт возможность реализовать
+          самые смелые дизайнерские идеи и создать уникальный облик
+          пространства.
+        </p>
+      </div>
+
+      <div class="products-row">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="product-card">
+                <h5 class="product-title">AluTerra Portale</h5>
+                <img src="img/portal1.png" alt="AluTerra Portale" />
+                <div class="product-wireframe">
+                  Подъемно-раздвижные двери — современное решение для
+                  остекления больших проемов зданий повышенной комфортности.
+                  Функциональность конструкций обеспечивается за счет особого
+                  способа открывания — створки сдвигаются параллельно стене,
+                  не занимая внутреннее пространство комнаты и высвобождая
+                  широкий проем. Таким образом, они позволяют объединить
+                  несколько помещений или помещение с террасой
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="product-card">
+                <h5 class="product-title">AluTerra Fold</h5>
+                <img src="img/portal2.png" alt="AluTerra Fold" />
+                <div class="product-wireframe">
+                  Система складных панорамных дверей AluTerra Fold на базе
+                  BF73 является современным решением, предназначенным для
+                  использования как в частном коттеджном домостроении, так и в
+                  зданиях общественного назначения в качестве выходов на
+                  террасы кафе и ресторанов, а в бизнес-центрах и отелях — в
+                  шоу-румы и переговорные. При открытии створки складываются
+                  влево или вправо, либо раздвигаются в обе стороны проема.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-0">
+        <div class="windows-swiper swiper-3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slider31.png" alt="Картинка 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider32.png" alt="Картинка 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider33.png" alt="Картинка 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="windows-section" id="facade">
+      <div class="container">
+        <h2 class="section-title">ФАСАДНОЕ ОСТЕКЛЕНИЕ</h2>
+        <div class="section-text">
+          Фасадное остекление АлюТерра Фасад из алюминиевых профилей
+          представляет собой современное технологическое решение для
+          архитектурного оформления зданий, способное преобразить внешний
+          облик любого сооружения.<br />
+          Конструктивные особенности системы включают прочный алюминиевый
+          каркас с возможностью остекления значительных площадей фасада, при
+          этом материал в 7 раз прочнее дерева и в 2 раза — ПВХ, что позволяет
+          создавать масштабные светопрозрачные конструкции для высотных
+          зданий.<br />
+          Ключевые преимущества такого решения заключаются в:
+          <ul>
+            <li>
+              высокой энергоэффективности благодаря современным стеклопакетам
+            </li>
+            <li>
+              тличной светопропускаемости, снижающей затраты на искусственное
+              освещение
+            </li>
+            <li>долговечности службы (до 80-90 лет)</li>
+            <li>устойчивости к атмосферным воздействиям</li>
+            <li>пожаробезопасности материала</li>
+          </ul>
+          <br />
+          Универсальность применения делает алюминиевые фасады оптимальным
+          выбором для бизнес-центров и офисных зданий, торговых комплексов,
+          жилых высоток, спортивных сооружений, частных домов.
+        </div>
+      </div>
+
+      <div class="products-row">
+        <div class="container">
+          <div class="row g-4">
+            <h5 class="product-title">AluTerra Facade</h5>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="product-card">
+                <img src="img/fasad1.png" alt="AluTerra Facade" />
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="product-card">
+                <img src="img/fasad2.png" alt="AluTerra Light" />
+              </div>
+            </div>
+
+            <p class="section-text">
+              Классическое фасадное остекление АлюТерра Фасад представлено
+              системой F50 предназначено для создания ограждающих
+              светопрозрачных конструкций разной степени сложности. Профили
+              системы обеспечивают максимальную прозрачность и визуальную
+              легкость конструкции за счет оптимальной конфигурации и
+              возможности реализации различных узловых решений. Система
+              предназначена для изготовления легких стеновых ограждений,
+              наклонных светопрозрачных покрытий, куполов, зимних садов и
+              других пространственных конструкций. Каркасом несущей
+              конструкции являются стойки и ригели. Поддержание комфортной
+              температуры в помещении. Экономия на отоплении и
+              кондиционировании. Отсутствие риска выпадения конденсата на
+              внутренней части фасада. Исключение промерзания помещения.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-0">
+        <div class="windows-swiper swiper-4">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slider41.png" alt="Картинка 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider42.png" alt="Картинка 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider43.png" alt="Картинка 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="windows-section" id="partition">
+      <div class="container">
+        <h2 class="section-title">ИНТЕРЬЕРНЫЕ ПЕРЕГОРОДКИ из алюминия</h2>
+        <p class="section-text">
+          Интерьерные алюминиевые перегородки АлюТерра Дизайн  — это
+          современное решение для эффективного зонирования пространства,
+          сочетающее функциональность, эстетику и практичность.<br />
+          Конструктивные особенности обеспечивают высокую прочность при
+          минимальном весе. Особую функциональность придаёт возможность
+          интеграции дверей.<br />
+          Ключевые преимущества перегородок включают долговечность (до 50 лет
+          эксплуатации), устойчивость к механическим воздействиям, простоту
+          монтажа и демонтажа, а также возможность быстрой перепланировки
+          пространства. Интегрированные двери могут быть оснащены
+          автоматическими механизмами открывания, что особенно актуально для
+          общественных пространств.<br />
+          Дизайн-потенциал систем впечатляет разнообразием: от классических
+          прямых линий до сложных архитектурных форм, с возможностью
+          использования различных типов заполнения (стекло, панели, текстиль)
+          и окраски в любые цвета по шкале RAL.<br />
+          Практическое применение перегородок охватывает офисные пространства,
+          торговые центры, образовательные учреждения и жилые помещения, где
+          они не только выполняют функцию зонирования, но и становятся важным
+          элементом дизайна. Интегрированные двери позволяют создавать гибкие
+          пространства с возможностью быстрого изменения конфигурации.<br />
+          Экономическая эффективность решения обусловлена низкими затратами на
+          обслуживание, длительным сроком службы и возможностью многократной
+          перепланировки без значительных финансовых вложений.ым выбором для
+          бизнес-центров и офисных зданий, торговых комплексов, жилых высоток,
+          спортивных сооружений, частных домов.
+        </p>
+      </div>
+
+      <div class="products-row">
+        <div class="container">
+          <div class="row g-4">
+            <h5 class="product-title">AluTerra Design</h5>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="product-card">
+                <img src="img/interior1.png" alt="AluTerra Design" />
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="product-card">
+                <img src="img/interior2.png" alt="AluTerra Design" />
+              </div>
+            </div>
+
+            <p class="section-text">
+              Интеръерные перегородки АлюТерра Дизайн представлены в системаз
+              110 и 111.<br />
+              Предназначены для обустройства рабочего пространства. Помогают
+              делить помещения на функциональные зоны, создавая комфортные
+              условия труда для сотрудников. Используются для организации
+              рабочего пространства в торговых залах, выставочных центрах
+              и офисных помещениях. Возможны различные варианты исполнения
+              дверей — алюминиевые, деревянные, цельностеклянные.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-0">
+        <div class="windows-swiper swiper-5">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/slider51.png" alt="Картинка 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider52.png" alt="Картинка 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/slider53.png" alt="Картинка 3" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="modal" id="feedback-modal">
+      <div class="modal-header">
+        <span class="close" id="close-modal">&times;</span>
+        <h2>ЗАЯВКА НА РАСЧЕТ</h2>
+      </div>
+      <div class="modal-body">
+        <?php
+        $status = '';
+        if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_feedback'])) {
+          $name = trim($_POST['name'] ?? '');
+          $phone = trim($_POST['phone'] ?? '');
+          $agreement = isset($_POST['agreement']);
+
+          if (empty($name) || empty($phone) || !$agreement) {
+            $status = '<div class="message error">Заполните все поля и подтвердите согласие.</div>';
+          } else {
+            // Тема и текст письма
+            $to = 'marketing@plastikat.ru';
+            $subject = 'Новая заявка с сайта';
+            $message = "Имя: $name\nТелефон: $phone\n\nЗаявка отправлена с сайта.";
+            $headers = "From: no-reply@" . $_SERVER['HTTP_HOST'] . "\r\n" .
+              "Reply-To: $phone\r\n" .
+              "Content-Type: text/plain; charset=utf-8";
+
+            if (mail($to, $subject, $message, $headers)) {
+              $status = '<div class="message success">Спасибо! Ваша заявка отправлена.</div>';
+            } else {
+              $status = '<div class="message error">Ошибка отправки. Попробуйте позже.</div>';
+            }
+          }
+        }
+        ?>
+        <form method="POST" id="feedback-form">
+          <label for="name">Имя</label>
+          <input type="text" id="name" name="name" required placeholder="Ваше имя" />
+
+          <label for="phone">Телефон</label>
+          <input type="tel" id="phone" name="phone" required placeholder="+7 (___) ___-__-__" />
+
+          <input type="hidden" name="_subject" value="Новая заявка с сайта" />
+
+          <input type="hidden" name="_replyto" value="marketing@plastikat.ru" />
+
+          <div class="checkbox-container">
+            <input type="checkbox" id="agreement" required />
+            <label for="agreement">Нажимая на кнопку, я принимаю условия соглашения об обработке
+              персональных данных.</label>
+          </div>
+
+          <button type="submit" class="submit-btn" id="submit-btn">
+            Отправить
+          </button>
+
+          <div class="success-message" id="success-message">
+            Спасибо! Ваша заявка отправлена.
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-3 col-6">
+          <h5>ОКНА</h5>
+          <ul>
+            <li><a href="#">Алютера Классик</a></li>
+            <li><a href="#">Алютера Комфорт+</a></li>
+            <li><a href="#">Алютера Лайт</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6">
+          <h5>ДВЕРИ</h5>
+          <ul>
+            <li><a href="#">Алютера Классик</a></li>
+            <li><a href="#">Алютера Комфорт+</a></li>
+            <li><a href="#">Алютера Лайт</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6">
+          <h5>ПОРТАЛЫ</h5>
+          <ul>
+            <li><a href="#">Алютера Фолд</a></li>
+            <li><a href="#">Алютера Слайд</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6">
+          <h5>ФАСАДНОЕ ОСТЕКЛЕНИЕ</h5>
+          <ul>
+            <li><a href="#">Алютера Фасад</a></li>
+            <li><a href="#">Алютера Дизайн</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 footer__info">
+          <div style="display: flex; flex-direction: column">
+            <h5>КОНТАКТЫ:</h5>
+            <a href="tel:99-49-49" class="footer__link">99-49-49</a>
+            <a href="mailto:aluterra@yandex.ru" class="footer__link">aluterra@yandex.ru</a>
+            <div class="footer__social">
+              <div class="social-icons">
+                <a href="#">
+                  <img src="img/vk.png" alt="" />
+                </a>
+                <a href="#"> <img src="img/tg.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+
+          <a href="javascript:0;" data-open-feedback class="cta-button">ЗАКАЗАТЬ РАСЧЕТ</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>
+          Оставляя на сайте свои контактные данные, Вы даете согласие на
+          обработку своих персональных данных в соответствии с политикой
+          конфиденциальности<br />2025 © ООО Пластикат-Сервис. Сайт не
+          является публичной офертой и носит информационный характер.
+        </p>
+        <div class="footer-bottom__links">
+          <a class="footer-bottom__link" href="#">Политика конфиденциальности</a>,<a class="footer-bottom__link"
+            href="#">
+            Cогласие на обработку персональных данных</a>,
+          <a class="footer-bottom__link" href="#">
+            Cогласие на получение рекламных материалов</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+    const openButtons = document.querySelectorAll("[data-open-feedback]");
+    const modal = document.getElementById("feedback-modal");
+    const overlay = document.getElementById("overlay");
+    const closeBtn = document.getElementById("close-modal");
+
+    openButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        modal.style.display = "flex";
+        overlay.style.display = "block";
+        document.body.classList.add("fixed");
+        form.querySelector('.message')?.remove();
+      });
+    });
+
+    closeBtn.addEventListener("click", closeModal);
+
+    overlay.addEventListener("click", closeModal);
+
+    function closeModal() {
+      modal.style.display = "none";
+      overlay.style.display = "none";
+      document.body.classList.remove("fixed");
+    }
+
+    form.addEventListener("submit", function (e) {
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Отправка...";
+    });
+
+    <?php if (strpos($status, 'success') !== false): ?>
+      setTimeout(closeModal, 3000);
+    <?php endif; ?>
+  </script>
+
+  <script>
+    const swiper1 = new Swiper(".swiper-1", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: 3000,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        300: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+    const swiper2 = new Swiper(".swiper-2", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: 3000,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        300: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+    const swiper3 = new Swiper(".swiper-3", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: 3000,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        300: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+    const swiper4 = new Swiper(".swiper-4", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: 3000,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        300: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+    const swiper5 = new Swiper(".swiper-5", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: 3000,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        300: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+  </script>
+</body>
+
+</html>
